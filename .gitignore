@@ -2,6 +2,7 @@
 .venv/
 screenshots/**/*.png
 *.log
+chromedriver.exe
 
 # Ignore PyCharm project files
 .idea/
