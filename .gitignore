@@ -1,13 +1,44 @@
-*.properties
-.venv/
-screenshots/**/*.png
-*.log
-chromedriver.exe
-
-# Ignore PyCharm project files
-.idea/
-
 # Ignore Python cache
 __pycache__/
 *.py[cod]
 *.pyo
+
+# === Python Bytecode & Cache Files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# === Virtual Environments ===
+venv/
+env/
+ENV/
+.venv/
+
+# === PyCharm Project Files ===
+.idea/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Screenshot Artifacts ===
+screenshots/**/*.png
+
+# === ChromeDriver Executable (Optional) ===
+drivers/chromedriver.exe
+
+# === Test Results ===
+*.xml
+htmlcov/
+coverage/
+*.cover
+.cache/
+.pytest_cache/
+
+# === Credentials (Optional if sensitive) ===
+credentials.properties
