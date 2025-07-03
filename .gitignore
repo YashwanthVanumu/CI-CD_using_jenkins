@@ -1,0 +1,12 @@
+*.properties
+.venv/
+screenshots/**/*.png
+*.log
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
