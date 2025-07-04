@@ -29,9 +29,6 @@ Thumbs.db
 # === Screenshot Artifacts ===
 screenshots/**/*.png
 
-# === ChromeDriver Executable (Optional) ===
-drivers/chromedriver.exe
-
 # === Test Results ===
 *.xml
 htmlcov/
